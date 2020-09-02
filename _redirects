@@ -2,7 +2,7 @@
 
 # Redirects for old pages of nexusjs.org
 
-/getting-started/               /   301
+/getting-started/               /docs/getting-started/   301
 /getting-started/examples/      /   301
 /getting-started/tutorial/      /   301                        
 /getting-started/tutorial/chapter-adding-mutations-to-your-api/   /   301
