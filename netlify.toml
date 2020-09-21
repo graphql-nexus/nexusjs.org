@@ -1,4 +1,3 @@
 [build]
 
 publish = "src/public"
-command = "yarn build"
