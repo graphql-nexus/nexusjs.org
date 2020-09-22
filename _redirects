@@ -16,10 +16,10 @@
 /getting-started/tutorial/chapter-testing-your-api/               /docs/getting-started/tutorial/chapter-testing-your-api               301
 /getting-started/tutorial/chapter-writing-your-first-schema/      /docs/getting-started/tutorial/chapter-writing-your-first-schema      301
 
-/meta/roadmap/          https://nxs.li/roadmap     301
-/meta/changelog/        https://nxs.li/changelog   301
+/meta/roadmap/                          https://nxs.li/roadmap   301
+/meta/changelog/                        https://nxs.li/changelog 301
 
-/adoption-guides/prisma-users/         /docs/adoption-guides/prisma-users/   301
+/adoption-guides/prisma-users/          /docs/adoption-guides/prisma-users/ 301
 
 /pluginss/prisma/          /docs/pluginss/prisma 301
 /pluginss/prisma/devtime/  /docs/pluginss/prisma 301
@@ -58,73 +58,43 @@
 
 ### Pages Where direct from framework to schema library is not possible ###
 
-# This concept does not exist
-/components-standalone/                                   /                                       301
+/components-standalone/                /       301 # This concept does not exist
 
-# No landing page on new website
-/adoption-guides/                      /docs   301
-# Guide no longer exists
-/adoption-guides/nexus-schema-users/   /docs   301
-# Guide no longer exists
-/adoption-guides/nexus-users/          /docs   301
+/adoption-guides/                      /docs   301 # No landing page on new website
+/adoption-guides/nexus-schema-users/   /docs   301 # Guide no longer exists
+/adoption-guides/nexus-users/          /docs   301 # Guide no longer exists
 
-# No landing page on new website
-/guides/                 /   301
-# Guide no longer exists
-/guides/cli/             /   301
-# Guide no longer exists
-/guides/concepts/        /   301
-# Guide no longer exists
-/guides/configuration-management/   /   301
-# Guide no longer exists
-/guides/error-handling/  /   301
-# Guide no longer exists
-/guides/lifecycle/       /   301
-# Guide no longer exists
-/guides/logger/          /   301
-# Guide no longer exists
-/guides/plugins/         /   301
-# Guide no longer exists
-/guides/project-layout/  /   301
-# Guide no longer exists
-/guides/recipes/         /   301
-# Guide no longer exists
-/guides/schema/          /   301
-# Guide no longer exists
-/guides/server/          /   301
-# Guide no longer exists
-/guides/testing/         /   301
-# Guide no longer exists
-/guides/writing-plugins/ /   301
+/guides/                            /   301 # No landing page on new website
+/guides/cli/                        /   301 # Guide no longer exists
+/guides/concepts/                   /   301 # Guide no longer exists
+/guides/configuration-management/   /   301 # Guide no longer exists
+/guides/error-handling/             /   301 # Guide no longer exists
+/guides/lifecycle/                  /   301 # Guide no longer exists
+/guides/logger/                     /   301 # Guide no longer exists
+/guides/plugins/                    /   301 # Guide no longer exists
+/guides/project-layout/             /   301 # Guide no longer exists
+/guides/recipes/                    /   301 # Guide no longer exists
+/guides/schema/                     /   301 # Guide no longer exists
+/guides/server/                     /   301 # Guide no longer exists
+/guides/testing/                    /   301 # Guide no longer exists
+/guides/writing-plugins/            /   301 # Guide no longer exists
 
-# No landing page on new website
-/pluginss/                 /docs   301
-# Plugin does not exist for schema
-/pluginss/auth0/           /docs   301
-# Plugin does not exist for schema
-/pluginss/graphql-shield/  /docs   301
-# Plugin does not exist for schema
-/pluginss/jwt-auth/        /docs   301
+/pluginss/                 /docs   301 # No landing page on new website
+/pluginss/auth0/           /docs   301 # Plugin does not exist for schema
+/pluginss/graphql-shield/  /docs   301 # Plugin does not exist for schema
+/pluginss/jwt-auth/        /docs   301 # Plugin does not exist for schema
 
-# No landing page
-/api/                   /docs   301
-# No plugin api docs
-/api/nexus-plugin/      /docs   301
-# No testing api
-/api/nexus-testing/     /docs   301
+
+/api/                   /docs   301 # No landing page
+/api/nexus-plugin/      /docs   301 # No plugin api docs
+/api/nexus-testing/     /docs   301 # No testing api
 /api/nexus/             /docs   301
-# No log api
-/api/nexus/log/         /docs   301
-# No lifecycle api
-/api/nexus/on/          /docs   301
-# No landing page for schema api
-/api/nexus/schema/      /docs   301
-# No server api
-/api/nexus/server/      /docs   301
-# No settings api
-/api/nexus/settings/    /docs   301
-# No plugin use api
-/api/nexus/use/         /docs   301
+/api/nexus/log/         /docs   301 # No log api
+/api/nexus/on/          /docs   301 # No lifecycle api
+/api/nexus/schema/      /docs   301 # No landing page for schema api
+/api/nexus/server/      /docs   301 # No server api
+/api/nexus/settings/    /docs   301 # No settings api
+/api/nexus/use/         /docs   301 # No plugin use api
 
 # No meta content
 /meta/                  /docs   301
