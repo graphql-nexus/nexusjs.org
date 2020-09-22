@@ -2,17 +2,17 @@
 
 # Redirects for old pages of nexusjs.org
 
-/getting-started/               /docs/getting-started/   301
-/getting-started/examples/      /   301
-/getting-started/tutorial/      /   301                        
-/getting-started/tutorial/chapter-adding-mutations-to-your-api/   /   301
-/getting-started/tutorial/chapter-authentication/                 /   301
-/getting-started/tutorial/chapter-introduction/                   /   301
-/getting-started/tutorial/chapter-persisting-data-via-prisma/     /   301
-/getting-started/tutorial/chapter-setup-and-first-query/          /   301
-/getting-started/tutorial/chapter-testing-with-prisma/            /   301
-/getting-started/tutorial/chapter-testing-your-api/               /   301
-/getting-started/tutorial/chapter-writing-your-first-schema/      /   301
+/getting-started/                                                 /docs/getting-started/welcome                                         301
+/getting-started/examples/                                        /docs/getting-started/examples                                        301
+/getting-started/tutorial/                                        /docs/getting-started/tutorial                                        301                        
+/getting-started/tutorial/chapter-introduction/                   /docs/getting-started/tutorial/chapter-introduction                   301
+/getting-started/tutorial/chapter-adding-mutations-to-your-api/   /docs/getting-started/tutorial/chapter-adding-mutations-to-your-api   301
+/getting-started/tutorial/chapter-authentication/                 /docs/getting-started/tutorial/chapter-authentication                 301
+/getting-started/tutorial/chapter-persisting-data-via-prisma/     /docs/getting-started/tutorial/chapter-persisting-data-via-prisma     301
+/getting-started/tutorial/chapter-setup-and-first-query/          /docs/getting-started/tutorial/chapter-setup-and-first-query          301
+/getting-started/tutorial/chapter-testing-with-prisma/            /docs/getting-started/tutorial/chapter-testing-with-prisma            301
+/getting-started/tutorial/chapter-testing-your-api/               /docs/getting-started/tutorial/chapter-testing-your-api               301
+/getting-started/tutorial/chapter-writing-your-first-schema/      /docs/getting-started/tutorial/chapter-writing-your-first-schema      301
 
 /adoption-guides/                      /   301
 /adoption-guides/nexus-schema-users/   /   301
@@ -43,50 +43,50 @@
 /pluginss/prisma/overview/ /   301
 /pluginss/prisma/runtime/  /   301
 
-/api/                  /   301
-/api/nexus-plugin/     /   301
-/api/nexus-testing/    /   301
-/api/nexus/            /   301
-/api/nexus/log/        /   301
-/api/nexus/on/         /   301
-/api/nexus/schema/     /   301
-/api/nexus/server/     /   301
-/api/nexus/settings/   /   301
-/api/nexus/use/        /   301
+/api/                   /   301
+/api/nexus-plugin/      /   301
+/api/nexus-testing/     /   301
+/api/nexus/             /   301
+/api/nexus/log/         /   301
+/api/nexus/on/          /   301
+/api/nexus/schema/      /   301
+/api/nexus/server/      /   301
+/api/nexus/settings/    /   301
+/api/nexus/use/         /   301
 
-/meta/                /   301
-/meta/architecture/   /   301
-/meta/changelog/      /   301
-/meta/roadmap/        /   301
-/meta/spec-sheet/     /   301
+/meta/                  /   301
+/meta/architecture/     /   301
+/meta/changelog/        /   301
+/meta/roadmap/          /   301
+/meta/spec-sheet/       /   301
 
-/components-standalone/   /   301
-/components-standalone/logger/               /   301
-/components-standalone/logger/api/           /   301
-/components-standalone/logger/plugins-api/   /   301
-/components-standalone/logger/plugins/       /   301
-/components-standalone/schema/                          /   301
-/components-standalone/schema/api/                      /   301
-/components-standalone/schema/api/api-args/             /   301
-/components-standalone/schema/api/api-enumtype/         /   301
-/components-standalone/schema/api/api-extendtype/       /   301
-/components-standalone/schema/api/api-inputobjecttype/  /   301
-/components-standalone/schema/api/api-interfacetype/    /   301
-/components-standalone/schema/api/api-makeschema/       /   301
-/components-standalone/schema/api/api-mutation-field/   /   301
-/components-standalone/schema/api/api-objecttype/       /   301
-/components-standalone/schema/api/api-plugins/          /   301
-/components-standalone/schema/api/api-queryfield/       /   301
-/components-standalone/schema/api/api-scalartype/       /   301
-/components-standalone/schema/api/api-uniontype/        /   301
-/components-standalone/schema/plugins/                  /   301
-/components-standalone/schema/plugins/connection/       /   301
-/components-standalone/schema/plugins/field-authorize/    /   301
-/components-standalone/schema/plugins/nullability-guard/  /   301
-/components-standalone/schema/plugins/prisma/             /   301
-/components-standalone/schema/plugins/query-complexity/   /   301
-/components-standalone/schema/sdl-converter/              /   301
+/components-standalone/                                   /                                       301
+/components-standalone/logger/                            https://github.com/jasonkuhrt/floggy    301
+/components-standalone/logger/api/                        https://github.com/jasonkuhrt/floggy    301
+/components-standalone/logger/plugins-api/                https://github.com/jasonkuhrt/floggy    301
+/components-standalone/logger/plugins/                    https://github.com/jasonkuhrt/floggy    301
+/components-standalone/schema/                            /                                       301
+/components-standalone/schema/api/                        /docs                                   301
+/components-standalone/schema/api/api-args/               /docs/api/args                          301
+/components-standalone/schema/api/api-enumtype/           /docs/api/enum-type                     301
+/components-standalone/schema/api/api-extendtype/         /docs/api/extend-type                   301
+/components-standalone/schema/api/api-inputobjecttype/    /docs/api/input-object-type             301
+/components-standalone/schema/api/api-interfacetype/      /docs/api/interface-type                301
+/components-standalone/schema/api/api-makeschema/         /docs/api/make-schema                   301
+/components-standalone/schema/api/api-mutation-field/     /docs/api/mutation-field                301
+/components-standalone/schema/api/api-objecttype/         /docs/api/object-type                   301
+/components-standalone/schema/api/api-plugins/            /docs/api/plugins                       301
+/components-standalone/schema/api/api-queryfield/         /docs/api/query-field                   301
+/components-standalone/schema/api/api-scalartype/         /docs/api/scalar-type                   301
+/components-standalone/schema/api/api-uniontype/          /docs/api/union-type                    301
+/components-standalone/schema/plugins/                    /docs                                   301
+/components-standalone/schema/plugins/connection/         /docs/pluginss/connection               301
+/components-standalone/schema/plugins/field-authorize/    /docs/pluginss/field-authorize          301
+/components-standalone/schema/plugins/nullability-guard/  /docs/pluginss/nullability-guard        301
+/components-standalone/schema/plugins/prisma/             /docs/pluginss/prisma                   301
+/components-standalone/schema/plugins/query-complexity/   /docs/pluginss/query-complexity         301
 
+/components-standalone/schema/sdl-converter/              /                                       301
 
 ### Rewrites ###
 
