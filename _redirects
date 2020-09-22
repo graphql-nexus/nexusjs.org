@@ -88,6 +88,38 @@
 /components-standalone/schema/sdl-converter/              /   301
 
 
+# Redirects for old pages of nexus.js.org
+
+/docs/getting-started	    /docs  301
+/docs/best-practices	    /docs/guides/best-practices  301
+/docs/type-generation	    /docs/guides/type-generation-details  301
+/docs/library-authors	    /docs/guides/library-authors  301
+/docs/why-graphql-nexus	  /docs/why-nexus  301
+/docs/future-features	    /    301
+/docs/api-core-concepts	  /docs/api/introduction  301
+/docs/api-objecttype	    /docs/api/object-type  301
+/docs/api-uniontype	      /docs/api/union-type  301
+/docs/api-scalartype	    /docs/api/scalar-type  301
+/docs/api-interfacetype	  /docs/api/interface-type  301
+/docs/api-inputobjecttype	/docs/api/input-object-type  301
+/docs/api-enumtype	      /docs/api/enum-type  301
+/docs/api-args	          /docs/api/args  301
+/docs/api-makeschema	    /docs/api/make-schema  301
+/docs/api-extendtype	    /docs/api/extend-type  301
+/docs/api-mutationfield	  /docs/api/mutation-field  301
+/docs/api-queryfield	    /docs/api/query-field  301
+/docs/api-plugins	        /docs/api/plugins  301
+
+/docs/plugin-connection	      /docs/pluginss/connection  301
+/docs/plugin-fieldauthorize	  /docs/pluginss/field-authorize  301
+/docs/plugin-nullabilityguard	/docs/pluginss/nullability-guard  301
+/docs/plugin-querycomplexity	/docs/pluginss/query-complexity  301
+/docs/nexus-prisma	          /docs/pluginss/prisma  301
+
+/users	/    301
+/docs/builder-construction	  /   301
+
+
 ### Rewrites ###
 
 /docs/*    https://graphql-nexus-schema-docs.netlify.app/:splat 200!
