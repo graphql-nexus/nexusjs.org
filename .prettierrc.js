@@ -1,3 +1,3 @@
 module.exports = {
-  ...require('@prisma-labs/prettier-config')
+  ...require('@prisma-labs/prettier-config'),
 }
