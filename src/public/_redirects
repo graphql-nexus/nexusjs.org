@@ -13,7 +13,7 @@
 ### For old pages of nexusjs.org when it was a framework and documentation was in the root
 ###
 
-/getting-started/                                                 /docs/getting-started/welcome                                         301
+/getting-started/                                                 /docs                                                                 301
 /getting-started/examples/                                        /docs/getting-started/examples                                        301
 /getting-started/tutorial/                                        /docs/getting-started/tutorial                                        301                        
 /getting-started/tutorial/chapter-introduction/                   /docs/getting-started/tutorial/chapter-introduction                   301
@@ -39,7 +39,7 @@
 /components-standalone/logger/api/                        https://github.com/jasonkuhrt/floggy    301
 /components-standalone/logger/plugins-api/                https://github.com/jasonkuhrt/floggy    301
 /components-standalone/logger/plugins/                    https://github.com/jasonkuhrt/floggy    301
-/components-standalone/schema/                            /                                       301
+/components-standalone/schema/                            /docs                                   301
 /components-standalone/schema/api/                        /docs                                   301
 /components-standalone/schema/api/api-args/               /docs/api/args                          301
 /components-standalone/schema/api/api-enumtype/           /docs/api/enum-type                     301
@@ -59,7 +59,7 @@
 /components-standalone/schema/plugins/nullability-guard/  /docs/pluginss/nullability-guard        301
 /components-standalone/schema/plugins/prisma/             /docs/pluginss/prisma                   301
 /components-standalone/schema/plugins/query-complexity/   /docs/pluginss/query-complexity         301
-/components-standalone/schema/sdl-converter/              /                                       301
+/components-standalone/schema/sdl-converter/              /converter                              301
 
 
 ### Pages where redirect from framework to schema library is not possible ###
@@ -112,8 +112,8 @@
 ### Redirects for old pages of nexus.js.org
 ###
 
-/docs/getting-started       /docs  301
-/docs/future-features       /    301
+/docs/getting-started       /docs            301
+/docs/future-features       /                301
 /docs/why-graphql-nexus     /docs/why-nexus  301
 
 /docs/best-practices        /docs/guides/best-practices  301
