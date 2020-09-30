@@ -117,7 +117,7 @@
 /docs/why-graphql-nexus     /docs/why-nexus  301
 
 /docs/best-practices        /docs/guides/best-practices  301
-/docs/type-generation       /docs/guides/type-generation-details  301
+/docs/type-generation       /docs/guides/generated-artifacts#typescript-type-generation  301
 /docs/library-authors       /docs/guides/library-authors  301
 
 /docs/api-core-concepts     /docs/api/introduction  301
