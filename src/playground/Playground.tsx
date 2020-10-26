@@ -1,7 +1,6 @@
 import {
   arg,
   booleanArg,
-  core,
   enumType,
   floatArg,
   idArg,
@@ -13,6 +12,8 @@ import {
   stringArg,
   unionType,
 } from "@nexus/schema";
+// `core` not imported by webpack when imported from the import above...
+import * as core from "@nexus/schema/dist/core";
 import { graphql, GraphQLSchema, lexicographicSortSchema } from "graphql";
 import debounce from "lodash.debounce";
 import * as monaco from "monaco-editor";
@@ -21,10 +22,13 @@ import React, {
   useEffect,
   useMemo,
   useRef,
-  useState,
+  useState
 } from "react";
 import { useDebounce } from "use-debounce";
-import "./monaco-config";
+import { loadMonacoConfig } from './monaco-config';
+
+loadMonacoConfig()
+
 // import * as urlHash from "./urlHash";
 
 interface GraphiQLProps {
@@ -101,10 +105,7 @@ export const Playground: React.SFC<PlaygroundProps> = (props) => {
   useEffect(() => {
     if (debouncedSchema) {
       debouncedSchema.metadata
-        .generateTypesFile(debouncedSchema.schema, {
-          dynamicInputFields: {},
-          dynamicOutputField: {},
-        })
+        .generateTypesFile(debouncedSchema.schema as core.NexusGraphQLSchema, '')
         .then((generated) => {
           setGeneratedTypes(generated);
         });
