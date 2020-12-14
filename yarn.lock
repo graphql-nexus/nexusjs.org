@@ -1664,10 +1664,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@nexus/schema@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/@nexus/schema/-/schema-0.19.0.tgz#b4823b7ea8616c780df6f547e1e68aea099afa85"
-  integrity sha512-zroislaCFT50ywsS515q3drRhEpucidv6zgRIP1zoQBnBVpNTgmgTlJfSSFiWAPG/wjSZcvBdFL9EBj1dHyOsg==
+"@nexus/schema@0.20.0-next.16":
+  version "0.20.0-next.16"
+  resolved "https://registry.yarnpkg.com/@nexus/schema/-/schema-0.20.0-next.16.tgz#f5158e9c17cbac8ab235f87a88f32448c1c3c2d8"
+  integrity sha512-D4/klfvRhJeqH2dqjdvdjJUIOhQ2WlRDy8HQacXlQbgoy0za/57SfG6RT4rVlrJtXrpNuAIjH+k+fUzVbYkZ8g==
   dependencies:
     iterall "^1.3.0"
     tslib "^2.0.3"
@@ -5603,7 +5603,7 @@ isurl@^1.0.0-alpha5:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
 
-iterall@^1.2.2, iterall@^1.3.0:
+iterall@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.3.0.tgz#afcb08492e2915cbd8a0884eb93a8c94d0d72fea"
   integrity sha512-QZ9qOMdF+QLHxy1QIpUHUU1D5pS2CG2P69LF6L6CPjPYA/XMOmKV3PZpawHoAjHNyB0swdVTRxdYT4tbBbxqwg==
