@@ -6,7 +6,7 @@
   "author": "Flavian DESVERNE <flavian.desverne@epitech.eu>",
   "license": "MIT",
   "dependencies": {
-    "@nexus/schema": "0.20.0-next.16",
+    "@nexus/schema": "0.20.1",
     "dedent": "^0.7.0",
     "graphql": "^15.0.0",
     "monaco-editor": "^0.21.2",
