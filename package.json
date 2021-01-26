@@ -10,8 +10,8 @@
     "dedent": "^0.7.0",
     "graphql": "^15.0.0",
     "monaco-editor": "^0.21.2",
-    "react": "^16.7.0-alpha.2",
-    "react-dom": "^16.7.0-alpha.2"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "scripts": {
     "dev": "ts-node-dev --respawn ./src/serve.ts",
