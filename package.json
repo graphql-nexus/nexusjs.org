@@ -49,7 +49,7 @@
     "raw-loader": "^3.1.0",
     "react-split-pane": "^0.1.84",
     "serve-index": "^1.9.1",
-    "style-loader": "^1.0.0",
+    "style-loader": "1.3.0",
     "transit-js": "^0.8.861",
     "ts-node": "^9.0.0",
     "ts-node-dev": "^1.0.0",
