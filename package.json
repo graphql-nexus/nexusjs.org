@@ -32,7 +32,7 @@
     "@types/lodash.debounce": "^4.0.4",
     "@types/node": "^14.14.2",
     "@types/react": "^16.9.53",
-    "@types/react-dom": "^16.0.9",
+    "@types/react-dom": "16.9.16",
     "@types/serve-index": "^1.7.30",
     "@types/webpack": "^4.4.19",
     "babel-loader": "^8.0.4",
