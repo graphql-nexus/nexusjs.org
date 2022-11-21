@@ -36,7 +36,7 @@
     "@types/serve-index": "^1.7.30",
     "@types/webpack": "^4.4.19",
     "babel-loader": "^8.0.4",
-    "css-loader": "^3.2.0",
+    "css-loader": "^6.0.0",
     "docusaurus": "^1.7.2",
     "express": "^4.17.1",
     "file-loader": "^6.1.0",
