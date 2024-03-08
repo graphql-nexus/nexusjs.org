@@ -9,7 +9,7 @@
     "@nexus/schema": "0.20.0-next.16",
     "dedent": "^0.7.0",
     "graphql": "^15.0.0",
-    "monaco-editor": "^0.21.2",
+    "monaco-editor": "^0.47.0",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2"
   },
