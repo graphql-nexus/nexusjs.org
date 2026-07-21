@@ -1858,6 +1858,11 @@
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.6.tgz#a9ca4b70a18b270ccb2bc0aaafefd1d486b7ea74"
   integrity sha512-W+bw9ds02rAQaMvaLYxAbJ6cvguW/iJXNT6lTssS1ps6QdrMKttqEAMEG/b5CR8TZl3/L7/lH0ZV5nNR1LXikA==
 
+"@types/trusted-types@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.7.tgz#baccb07a970b91707df3a3e8ba6896c57ead2d11"
+  integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
+
 "@types/uglify-js@*":
   version "3.9.3"
   resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.9.3.tgz#d94ed608e295bc5424c9600e6b8565407b6b4b6b"
@@ -3765,6 +3770,13 @@ domhandler@^2.3.0:
   integrity sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
   dependencies:
     domelementtype "1"
+
+dompurify@3.4.8:
+  version "3.4.8"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.4.8.tgz#6c54f8c207160e7f83fcb7f4fd05a82ac36b1cdc"
+  integrity sha512-yb1cEmaOum7wFvOCSQxyfgVlv5D47Rc30iZWoMpbDIWTnJ6grDDQyu2KFJzB2k7u0pMuJcQ1zphH//fFnw2tjQ==
+  optionalDependencies:
+    "@types/trusted-types" "^2.0.7"
 
 domutils@1.5.1:
   version "1.5.1"
@@ -6083,6 +6095,11 @@ markdown-toc@^1.2.0:
     repeat-string "^1.6.1"
     strip-color "^0.1.0"
 
+marked@14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-14.0.0.tgz#79a1477358a59e0660276f8fec76de2c33f35d83"
+  integrity sha512-uIj4+faQ+MgHgwUW1l2PsPglZLOLOT1uErt06dAPtx2kjteLAkbsd/0FiYg/MGS+i7ZKLb7w2WClxHkzOOuryQ==
+
 math-random@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/math-random/-/math-random-1.0.4.tgz#5dd6943c938548267016d4e34f057583080c514c"
@@ -6283,10 +6300,13 @@ monaco-editor-webpack-plugin@^2.0.0:
   dependencies:
     loader-utils "^2.0.0"
 
-monaco-editor@^0.21.2:
-  version "0.21.2"
-  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.21.2.tgz#37054e63e480d51a2dd17d609dcfb192304d5605"
-  integrity sha512-jS51RLuzMaoJpYbu7F6TPuWpnWTLD4kjRW0+AZzcryvbxrTwhNy1KC9yboyKpgMTahpUbDUsuQULoo0GV1EPqg==
+monaco-editor@^0.56.0:
+  version "0.56.0"
+  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.56.0.tgz#e85ac00b7ab7092ca1d077894504919af5073cf0"
+  integrity sha512-sXboRm3BeBeLm938eaiyLMe0OxzfXIlZvbv4ir/jVgQy1zDhWjgmny0WoN45fuDKhCCQsYMbBJrv/A6jd8aCUg==
+  dependencies:
+    dompurify "3.4.8"
+    marked "14.0.0"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
